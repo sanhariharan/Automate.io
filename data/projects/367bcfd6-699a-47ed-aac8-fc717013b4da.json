@@ -1,0 +1,126 @@
+{
+  "project_id": "367bcfd6-699a-47ed-aac8-fc717013b4da",
+  "conversation_id": "367bcfd6-699a-47ed-aac8-fc717013b4da",
+  "requirements": {
+    "product_service": null,
+    "target_audience": null,
+    "budget": null,
+    "timeline": null,
+    "channels": null,
+    "goals": null
+  },
+  "ceo_plan": {
+    "project_name": "Digital Marketing Campaign",
+    "strategy_summary": "4-phase execution: Research → Content → Launch → Optimize",
+    "executive_summary": "Comprehensive marketing approach for product launch and customer acquisition",
+    "phases": [
+      {
+        "name": "Market Research",
+        "duration_days": 7,
+        "deliverables": [
+          "Market analysis report",
+          "Audience insights",
+          "Competitor benchmarking"
+        ],
+        "owner": "R&D",
+        "dependencies": [],
+        "milestone": true
+      },
+      {
+        "name": "Content Creation",
+        "duration_days": 10,
+        "deliverables": [
+          "5 Ad creatives",
+          "Email sequences",
+          "Landing pages"
+        ],
+        "owner": "Marketing",
+        "dependencies": [
+          "Market Research"
+        ],
+        "milestone": false
+      },
+      {
+        "name": "Campaign Launch",
+        "duration_days": 14,
+        "deliverables": [
+          "Live ads on channels",
+          "Email campaigns active",
+          "A/B tests running"
+        ],
+        "owner": "Marketing",
+        "dependencies": [
+          "Content Creation"
+        ],
+        "milestone": true
+      },
+      {
+        "name": "Optimization",
+        "duration_days": 21,
+        "deliverables": [
+          "Performance report",
+          "ROI analysis",
+          "Recommendations"
+        ],
+        "owner": "CEO",
+        "dependencies": [
+          "Campaign Launch"
+        ],
+        "milestone": true
+      }
+    ],
+    "budget_allocation": {
+      "rnd_research": 15000.0,
+      "content_creation": 25000.0,
+      "ads_paid": 50000.0,
+      "tools_tech": 10000.0,
+      "total": 100000.0
+    },
+    "kpi_targets": {
+      "leads": 50,
+      "conversion_rate": "5-8%",
+      "roi_expected": "2-3x",
+      "cac_target": "₹500-800"
+    },
+    "channels_priority": [
+      "Instagram",
+      "LinkedIn",
+      "Email"
+    ],
+    "timeline_days": 52,
+    "risk_assessment": {
+      "high": [
+        "Ad fatigue",
+        "Low engagement",
+        "Platform algorithm changes"
+      ],
+      "medium": [
+        "Budget overrun",
+        "Creative underperformance"
+      ],
+      "mitigation": "Weekly A/B testing, budget caps, creative rotation every 2 weeks"
+    },
+    "should_trigger_rnd": true,
+    "rnd_params": {
+      "research_topics": [
+        "Audience behavior analysis",
+        "Competitor strategy",
+        "Market trends"
+      ],
+      "competitor_analysis": true,
+      "market_research": true
+    },
+    "should_trigger_marketing": true,
+    "marketing_params": {
+      "campaign_type": "Performance Marketing",
+      "creative_brief": "Professional positioning with focus on benefits",
+      "ad_budget": 50000.0
+    },
+    "n8n_payload": {},
+    "success_probability": "Medium"
+  },
+  "status": "planning_complete",
+  "created_at": "2026-01-02T18:38:46.526599",
+  "agents_triggered": [],
+  "model": "gemini-2.5-flash"
+}

@@ -1,0 +1,107 @@
+{
+  "project_id": "conv_33585",
+  "conversation_id": "conv_33585",
+  "requirements": {
+    "product_service": null,
+    "target_audience": null,
+    "budget": null,
+    "timeline": null,
+    "channels": null,
+    "goals": null
+  },
+  "ceo_plan": {
+    "project_name": "Automate.io Strategic Plan",
+    "strategy_summary": "This project aims to create a comprehensive marketing strategy for Automate.io, focusing on awareness and lead generation through LinkedIn and YouTube channels.",
+    "executive_summary": "The strategy involves three phases: research and planning, content creation and campaign execution, and optimization and evaluation. The budget allocation is ₹100,000, with ₹50,000 for ads, ₹25,000 for content creation, ₹15,000 for R&D research, and ₹10,000 for tools and technology. The timeline is 14 days, with a target of 100 leads and a conversion rate of 3-5%.",
+    "phases": [
+      {
+        "name": "Research and Planning",
+        "duration_days": 3,
+        "deliverables": [
+          "Market research report",
+          "Competitor analysis"
+        ],
+        "owner": "R&D",
+        "dependencies": [],
+        "milestone": true
+      },
+      {
+        "name": "Content Creation and Campaign Execution",
+        "duration_days": 5,
+        "deliverables": [
+          "Marketing content",
+          "Ad campaigns"
+        ],
+        "owner": "Marketing",
+        "dependencies": [
+          "Research and Planning"
+        ],
+        "milestone": true
+      },
+      {
+        "name": "Optimization and Evaluation",
+        "duration_days": 6,
+        "deliverables": [
+          "Campaign performance report",
+          "Optimization plan"
+        ],
+        "owner": "Marketing",
+        "dependencies": [
+          "Content Creation and Campaign Execution"
+        ],
+        "milestone": true
+      }
+    ],
+    "budget_allocation": {
+      "rnd_research": 15000,
+      "content_creation": 25000,
+      "ads_paid": 50000,
+      "tools_tech": 10000,
+      "total": 100000.0
+    },
+    "kpi_targets": {
+      "leads": 100,
+      "conversion_rate": "3-5%",
+      "roi_expected": "2-3x",
+      "cac_target": "₹1000"
+    },
+    "channels_priority": [
+      "LinkedIn",
+      "YouTube"
+    ],
+    "timeline_days": 14,
+    "risk_assessment": {
+      "high": [
+        "Limited budget may restrict reach",
+        "Tight timeline requires agile execution"
+      ],
+      "medium": [
+        "Market saturation in awareness space",
+        "Audience targeting precision"
+      ],
+      "mitigation": "Use combination of organic and paid channels. Implement daily optimization."
+    },
+    "should_trigger_rnd": true,
+    "rnd_params": {
+      "research_topics": [
+        "Audience behavior analysis",
+        "Competitor positioning",
+        "Market gaps"
+      ],
+      "competitor_analysis": true,
+      "market_research": true
+    },
+    "should_trigger_marketing": true,
+    "marketing_params": {
+      "campaign_type": "Awareness + Lead Generation",
+      "creative_brief": "Create compelling marketing content for target audience",
+      "ad_budget": 50000
+    },
+    "conversation_insights": "No conversation history",
+    "success_probability": "High"
+  },
+  "status": "planning_complete",
+  "created_at": "2026-01-04T14:53:36.552228",
+  "agents_triggered": [],
+  "model": "llama-3.3-70b-versatile"
+}

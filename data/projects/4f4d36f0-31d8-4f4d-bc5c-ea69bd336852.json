@@ -1,0 +1,131 @@
+{
+  "project_id": "4f4d36f0-31d8-4f4d-bc5c-ea69bd336852",
+  "conversation_id": "4f4d36f0-31d8-4f4d-bc5c-ea69bd336852",
+  "requirements": {
+    "product_service": null,
+    "target_audience": null,
+    "budget": null,
+    "timeline": null,
+    "channels": null,
+    "goals": null
+  },
+  "ceo_plan": {
+    "project_name": "Automate.io India Performance Campaign 2026",
+    "strategy_summary": "A data-driven, multi-channel performance marketing strategy targeting both B2C and B2B segments in India, leveraging automation to maximize ROI and scale quickly.",
+    "executive_summary": "The plan focuses on discovery, content creation, launch, and optimization phases over 165 days, with a total budget of ₹10,00,000. Key channels include social media, paid search, email, and display ads. Success will be measured by lead volume, conversion rate, ROI, and CAC targets.",
+    "phases": [
+      {
+        "name": "Discovery & Research",
+        "duration_days": 30,
+        "deliverables": [
+          "Market segmentation report",
+          "Competitive landscape analysis"
+        ],
+        "owner": "R&D",
+        "dependencies": [
+          "None",
+          "None"
+        ],
+        "milestone": true
+      },
+      {
+        "name": "Content & Creative Development",
+        "duration_days": 45,
+        "deliverables": [
+          "Ad copy variations for 4 platforms",
+          "Landing page prototypes",
+          "Email nurture sequence"
+        ],
+        "owner": "Marketing",
+        "dependencies": [
+          "Discovery & Research",
+          "Competitive landscape analysis"
+        ],
+        "milestone": true
+      },
+      {
+        "name": "Campaign Launch",
+        "duration_days": 60,
+        "deliverables": [
+          "Live paid media campaigns on Meta, Google, LinkedIn, and YouTube",
+          "Email blast to segmented lists",
+          "Performance dashboard setup"
+        ],
+        "owner": "Marketing",
+        "dependencies": [
+          "Content & Creative Development",
+          "Landing page prototypes"
+        ],
+        "milestone": true
+      },
+      {
+        "name": "Optimization & Scale",
+        "duration_days": 30,
+        "deliverables": [
+          "A/B test results report",
+          "Budget reallocation plan",
+          "Scalable automation workflow documentation"
+        ],
+        "owner": "Marketing",
+        "dependencies": [
+          "Campaign Launch",
+          "Performance dashboard setup"
+        ],
+        "milestone": true
+      }
+    ],
+    "budget_allocation": {
+      "rnd_research": 100000.0,
+      "content_creation": 300000.0,
+      "ads_paid": 500000.0,
+      "tools_tech": 100000.0,
+      "total": 1000000.0
+    },
+    "kpi_targets": {
+      "leads": 10000,
+      "conversion_rate": "5%",
+      "roi_expected": "200%",
+      "cac_target": "₹500"
+    },
+    "channels_priority": [
+      "Social Media",
+      "Paid Search",
+      "Email Marketing",
+      "Display Ads"
+    ],
+    "timeline_days": 165,
+    "risk_assessment": {
+      "high": [
+        "Regulatory compliance",
+        "Data privacy issues"
+      ],
+      "medium": [
+        "Ad platform policy changes",
+        "Currency fluctuations"
+      ],
+      "mitigation": "Engage legal counsel, diversify ad spend, monitor exchange rates"
+    },
+    "should_trigger_rnd": true,
+    "rnd_params": {
+      "research_topics": [
+        "Automation adoption trends in India",
+        "Competitive pricing models",
+        "User behavior analytics"
+      ],
+      "competitor_analysis": true,
+      "market_research": true
+    },
+    "should_trigger_marketing": true,
+    "marketing_params": {
+      "campaign_type": "Performance Marketing",
+      "creative_brief": "Showcase Automate.io's ease of integration and ROI for businesses",
+      "ad_budget": 500000.0
+    },
+    "n8n_payload": {},
+    "success_probability": "High"
+  },
+  "status": "planning_complete",
+  "created_at": "2026-01-02T18:51:20.807876",
+  "agents_triggered": [],
+  "model": "gemini-2.5-flash"
+}
